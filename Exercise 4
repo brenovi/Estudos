@@ -1,0 +1,15 @@
+package javaapplication2;
+import java.util.Scanner;
+public class JavaApplication2 {
+ public static void main(String[] args) {
+ int n1,dobro, triplo;
+Scanner teclado=new Scanner(System.in);
+System.out.println("Escreva um número");
+n1 =teclado.nextInt();
+dobro= n1*2;
+triplo= n1*3;
+if (n1>=0) System.out.println("Resultado é " +dobro);
+else{
+ System.out.println("Resultado é " +triplo);
+}
+ }
