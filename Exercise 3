@@ -1,8 +1,8 @@
-package javaapplication2;
+package exercise3;
 import java.util.Scanner;
-public class JavaApplication2 {
- public static void main(String[] args) {
- int A,B,C1,C2;
+public class exercise3 {
+public static void main(String[] args) {
+int A,B,C1,C2;
 Scanner teclado=new Scanner(System.in);
 System.out.println("Escreva um número");
 A =teclado.nextInt();
@@ -12,6 +12,6 @@ C1= A+B;
 C2= A*B;
 if (A == B) System.out.println("Resultado é "+C1);
 else{
- System.out.println("Resultado é " +C2);
+ System.out.println("Resultado é " +C2);} 
 }
- }
+}
