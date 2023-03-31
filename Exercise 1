@@ -12,7 +12,7 @@ System.out.println("Escreva mais um número");
 C =teclado.nextInt();
 Soma=A+B;
 if (C>=Soma)System.out.println("Resultado é " + Soma);
-else if (Soma>=C) System.out.println("Resultado é " + C);
+else if (Soma>C) System.out.println("Resultado é " + C);
  }
 
 }
