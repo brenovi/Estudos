@@ -4,7 +4,7 @@ public class Treino {
 public static void main(String[] args) {
  float Peso,Altura,IMC;
 Scanner teclado=new Scanner(System.in);
-System.out.println("Insira sua peso");
+System.out.println("Insira seu peso");
 Peso =teclado.nextFloat();
 System.out.println("Insira sua altura");
 Altura =teclado.nextFloat();
