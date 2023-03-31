@@ -1,8 +1,8 @@
-package javaapplication2;
+package exercise1;
 import java.util.Scanner;
-public class JavaApplication2 {
- public static void main(String[] args) {
- int A, B,C,Soma;
+public class exercise1 {
+public static void main(String[] args) {
+int A, B,C,Soma;
 Scanner teclado=new Scanner(System.in);
 System.out.println("Escreva um número");
 A =teclado.nextInt();
@@ -12,7 +12,7 @@ System.out.println("Escreva mais um número");
 C =teclado.nextInt();
 Soma=A+B;
 if (C>=Soma)System.out.println("Resultado é " + Soma);
-else if (Soma>C) System.out.println("Resultado é " + C);
+else if (Soma>=C) System.out.println("Resultado é " + C);
  }
 
 }
