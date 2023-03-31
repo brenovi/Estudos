@@ -1,8 +1,8 @@
-package javaapplication2;
+package treino;
 import java.util.Scanner;
-public class JavaApplication2 {
- public static void main(String[] args) {
- float nota1,nota2,nota3,total,media;
+public class Treino {
+public static void main(String[] args) {
+float nota1,nota2,nota3,total,media;
 Scanner teclado=new Scanner(System.in);
 System.out.println("Escreva sua primeira nota");
 nota1 =teclado.nextFloat();
@@ -16,3 +16,4 @@ if (media>=0 && media<3) System.out.println("Reprovado");
 else if(media>=3 && media<7) System.out.println("Exame");
 else System.out.println("Aprovado");
  }
+}
