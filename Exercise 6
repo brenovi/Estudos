@@ -1,7 +1,7 @@
-package javaapplication2;
+package treino;
 import java.util.Scanner;
-public class JavaApplication2 {
- public static void main(String[] args) {
+public class Treino {
+public static void main(String[] args) {
  float Peso,Altura,IMC;
 Scanner teclado=new Scanner(System.in);
 System.out.println("Insira sua peso");
